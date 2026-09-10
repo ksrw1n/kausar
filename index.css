@@ -1,0 +1,145 @@
+```css
+body {
+    background-color: #777;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 35px;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+    color: white;
+}
+
+h1 {
+    color: #ff6b35;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #ff6b35;
+    margin-top: 35px;
+}
+
+p {
+    color: #ccc;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Фото */
+.photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
+    border: 5px solid #ff6b35;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Любимые вещи */
+.favorites {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.favorite {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.favorite:hover {
+    background-color: #ff6b35;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* Ссылка */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #ff6b35;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: #ff8559;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #555;
+    padding: 20px;
+    text-align: center;
+    background-color: #292929;
+}
+
+td:hover {
+    background-color: #ff6b35;
+}
+
+/* Форма */
+form {
+    background-color: #292929;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+input {
+    display: block;
+    width: 95%;
+    padding: 13px;
+    margin-bottom: 15px;
+    background-color: #1b1b1b;
+    border: 1px solid #555;
+    border-radius: 8px;
+    color: white;
+}
+
+input:focus {
+    border-color: #ff6b35;
+    outline: none;
+}
+
+button {
+    padding: 13px 25px;
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff8559;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+```
